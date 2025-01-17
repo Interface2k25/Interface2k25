@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+body {
+    position: relative;
+    background-image: url('go.png');
+    background-size: cover;
+    background-position: position;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+}
+#outer{
+    margin-top: 4%;
+}
+#conte{
+    margin-top: 6%;
+}
+
+#heading-container {
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    margin-left: 33%;
+}
+
+#logo {
+    float: left;
+    width: 10.5%;
+    height: 55%;
+    margin-top: 6%;
+    margin-left: 18%;
+}
+
+#interface-logo {
+    float: right;
+  width: 12.5%;
+    height: 70.5%;
+       margin-top: 5%;
+    margin-right: 16.5%;
+}
+
+#text-container {
+    text-align: center;
+    padding: 8px;
+}
+
+#body {
+    padding: 20px;
+    text-align: center;
+}
+
+#h1 {
+    font-size: 28px;
+    margin: 0;
+    font-weight: bolder;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#h2 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#h3 {
+    font-size: 20px;
+    margin: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#h4 {
+    font-size: 20px;
+    margin: 3px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#h5 {
+    font-size: 20px;
+    margin: 3px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#dept {
+    font-size: 36px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    margin: 10px;
+    color: #FFBF00;
+}
+
+#under {
+    font-size: 24px;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: white;
+}
+
+#inter {
+    font-size: 60px;
+    margin: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    color: black;
+    -webkit-text-stroke: 1px white;
+}
+
+#i {
+    color: #FFBF00;
+    -webkit-text-stroke: 3px black;
+    font-size: 100px;
+    font-family: charm;
+    transform: rotate(90deg);
+}
+
+.button {
+    align-content: center;
+}
+
+.button-reg {
+    margin-top: 2.5%;
+    margin-right: 0.9%;
+    margin-left: 1%;
+    padding: 15px;
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(255, 191, 0);
+    font-weight: bold;
+    border: 4px solid;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    animation: blink-border 1.5s infinite;
+        
+}
+@keyframes blink-border {
+    0% {
+        border-color: black;
+    }
+    50% {
+        border-color: transparent;
+    }
+    100% {
+        border-color: black;
+    }
+}
+.button-reg:hover{
+
+    animation: blink-border 1.5s infinite;
+}
+.anc{
+    text-decoration: none;
+     color: black;
+}
+
+.button-rules {
+    padding: 15px;
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(0, 0, 0);
+    font-weight: bold;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    font-weight: bold;
+    color: white;
+    margin-left: 1%;
+    text-decoration: none;
+    border-color: rgb(255, 191, 0);
+}
+
+.up-button {
+    font-size: 28px;
+    background: transparent;
+    font-weight: bold;
+    border: 2px solid #A4A4A4;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 40%;
+    padding: 8px;
+    height: 2.5%;
+    border-color: white;
+}
+.up-button:hover {
+    color: #fff;
+}
+
+#registrationPopup {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 35%;
+    left: 35%;
+    width: 30%;
+    height: 30%;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.popup-content {
+    background-color: rgba(255, 191, 0, 0.9);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.close {
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+}
+
+.but {
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+.but:hover {
+    text-decoration: none;
+    color: white;
+}
+.button-rules:hover {
+    text-decoration: none;
+    color: white;
+    border-color: white;
+}
+@media only screen and (max-width: 600px) {
+  /* Adjust navbar styles for smaller screens */
+  .navbar {
+    padding: 25px;
+  }
+  
+  .navbar img {
+    max-width: 35px;
+  }
+  
+#conte{
+top: 10;}
+  .navbar a {
+    font-size: 14px;
+    
+  }
+  
+  /* Adjust heading-container margin for smaller screens */
+  #heading-container {
+    margin-left: 22%;
+  }
+  
+  /* Adjust logo size for smaller screens */
+  #logo {
+    width: 18%;
+height: 50%;
+    margin-left: 1%;
+margin-top: 10%;
+
+  }
+  
+  /* Adjust interface-logo size for smaller screens */
+  #interface-logo {
+    
+    width: 20%;
+height: 55%;
+margin-top: 10%;
+    margin-right: 1%;
+  }
+  
+  /* Adjust font sizes for smaller screens */
+  #h1 {
+    font-size: 10px;
+
+  }
+  .heading-container{
+ margin-top: 10%;}
+  #h2 {
+    font-size: 10px;
+    margin: 4px;
+  }
+  
+  #h3, #h4, #h5 {
+    font-size: 8px;
+    margin: 3px;
+  }
+  
+  #dept {
+    font-size: 20px;
+    margin: 8px;
+  }
+  
+  #under {
+    font-size: 18px;
+  }
+  
+  #inter {
+    font-size: 40px;
+  }
+  
+  .button-reg, .button-rules, .up-button{
+    font-size: 15px;
+    padding: 12px;
+	margin-top: 8%;
+
+  }
+  .up-button {
+    font-size: 16px;
+    padding: 12px;
+  }
+  /* Adjust registrationPopup position for smaller screens */
+  #registrationPopup {
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+font-size: 12px;
+  }
+.popup-content .reg{
+font-size: 20px;}
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to interFACE - 25</title>
+    <link rel="icon" type="image/png" href="grilogo.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 text-center">
+                <img id="logo" src="grilogo.png" class="img-fluid">
+                <img id="interface-logo" src="interface_logo.png" class="img-fluid">
+                <div id="heading-container">
+                    <div id="text-container">
+                        <div id="conte">
+                            <p class="glow" id="h1">THE GANDHIGRAM RURAL INSTITUTE</p>
+                            <p class="glow" id="h2">(Deemed to be University)</p>
+                            <p class="glow" id="h3">Ministry of Education, Govt. of India</p>
+                            <p class="glow" id="h4">Accredited by NAAC with 'A' Grade (3<sup>rd</sup> cycle)</p>
+                            <p class="glow" id="h5">Gandhigram, Dindigul, Tamilnadu - 624302</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12 text-center" id="body">
+                <p id="dept"><b>DEPARTMENT OF COMPUTER SCIENCE AND APPLICATIONS</b></p>
+                <b>
+                    <p id="under">Proudly Presents</p>
+                </b>
+                <p id="inter">inter<span id="i"><b><i>f</i></b></span>ACE'25</p>
+                <div class="button">
+                    <a class="button-rules" href="instructions.pdf" target="_blank" download>Event Rules & Schedule</a>
+                    <a class="button-rules" href="bro.png" target="_blank" download>Brochure</a>
+                    
+                    
+                    <button class="button-reg" onclick="showPopup('registrationPopup')">Register</button>
+              
+                    <a class="button-rules" href="https://www.ruraluniv.ac.in/faculties?department=ComputerSc_programmes" style="text-decoration: none;">About us</a>
+                </div>
+
+                <div id="registrationPopup" class="popup" style="display: none;">
+                    <div class="popup-content">
+                        <span class="close" onclick="closePopup('registrationPopup')">&times;</span>
+                        <h2 class="reg">Registration</h2><br />
+                        <button class="up-button"><a href="https://forms.gle/73XkaG3UzAH9eyMF9" class="but">UG</a></button>
+                        <button class="up-button"><a href="https://forms.gle/6s5z6VQi8e3b3NXZ6" class="but">PG</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script>
+        function showPopup(popupId) {
+            document.getElementById(popupId).style.display = "block";
+        }
+
+        function closePopup(popupId) {
+            document.getElementById(popupId).style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
